@@ -72,7 +72,7 @@ Add `ShizukuProvider` to `AndroidManifest.xml`.
 
 For multi-process applications, you need to call `ShizukuProvider.enableMultiProcessSupport()` in every process which needs to use Shizuku API.
 
-Starting from v12.1.0, Sui is initialized automatically in `ShizukuProvider`. You can opt-out this behavior by calling `ShizukuProvider#disableAutomaticSuiInitialization()` before `ShizukuProvider#onCreate()` is called. Unless there are special reasons, apps that support Shizuku should also support Sui, otherwise it will cause user confusion.
+Starting from v16.1.0, Sui is initialized automatically in `ShizukuProvider`. You can opt-out this behavior by calling `ShizukuProvider#disableAutomaticSuiInitialization()` before `ShizukuProvider#onCreate()` is called. Unless there are special reasons, apps that support Shizuku should also support Sui, otherwise it will cause user confusion.
 
 ### Request permission
 
